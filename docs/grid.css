@@ -1,3 +1,7 @@
+/*
+I copied this from Bootstrap, but stripped it down to the absolute minimal
+This is not a complete grid.css with all bells and wissles, use Bootstrap if you need that
+*/
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -75,3 +79,22 @@
   flex: 0 0 100%;
   max-width: 100%;
 }
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/*@media (min-width: 576px) {
+}
+*/
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: 768px) {
+}
+*/
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {
+}
+*/
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+}
+*/
