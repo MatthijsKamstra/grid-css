@@ -68,9 +68,6 @@ body {
   background: linear-gradient(135deg, #b04, #f80) fixed;
 }
 
-
-
-
 .container{
   background-color: white;
   border-radius: 4px;
@@ -78,27 +75,12 @@ body {
   margin-top: 20px;
 }
 
-
 .row > .col,
 .row > [class^="col-"] {
   padding-top: .75rem;
   padding-bottom: .75rem;
   background-color: rgba(86,61,124,.15);
   border: 1px solid rgba(86,61,124,.2);
-}
-
-/*.col, .column {
-  padding: 15px;
-  border: 1px solid #666;
-  margin: 5px 0;
-  background: #343436;
-
-  padding: 10px 0;
-  background-color: rgba(255, 0, 0, 0.25);
+  margin-right: -2px !important; /* make sure we compensate for the pixel border */
   text-align: center;
-
-  border: 1px solid transparentize(white, 0.25);
-  background-color: transparentize(white, 0.8);
-  color: transparentize(white, 0.1);
 }
-*/
