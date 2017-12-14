@@ -1,8 +1,5 @@
 /**
- * grid.css
- *
- * @source: https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap-grid.css
- * ___________________________________________
+ * container from Bootstrap
  */
 .container {
   margin-right: auto;
@@ -52,8 +49,9 @@
 }
 
 
-
-/* Style */
+/**
+ * Default styles after normalize.css
+ */
 html, body {
   height: 100%;
   box-sizing: border-box;
@@ -61,10 +59,11 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
-  color: #black;
+  font-size: 1.1em;
+  color: #090909;
   background: #000;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background: linear-gradient(135deg, #b04, #f80) fixed;
 }
 
@@ -72,7 +71,7 @@ body {
   background-color: white;
   border-radius: 4px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .row > .col,
